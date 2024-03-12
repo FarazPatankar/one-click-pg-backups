@@ -3,10 +3,16 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.tsx",
+    "start": "bun run src/index.tsx"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@eelkevdbos/elysia-basic-auth": "^1.4.1",
+    "@elysiajs/cron": "^0.8.0",
+    "@elysiajs/html": "^0.8.0",
+    "@elysiajs/static": "^0.8.1",
+    "elysia": "latest",
+    "filesize": "^10.1.0"
   },
   "devDependencies": {
     "bun-types": "latest"
